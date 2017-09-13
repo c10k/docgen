@@ -194,7 +194,7 @@ class segment:
         md_string = '''
 ## **{name}**
 
-{desc}
+> {desc}
 
 ```
 {protoype}
@@ -337,7 +337,7 @@ if __name__ == "__main__":
                 segments = p.parse(each_file, dest_dir)
                 for each_segment in segments:
                     each_segment.generate_md()
-            print("Markdowns Generted")
+            print("Markdowns Generated")
         else:
             raise Exception("Given destination is not a directory")
     except:
