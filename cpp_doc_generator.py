@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 from os.path import basename, splitext, isdir, abspath, join, isfile
 from os import getcwd, remove
